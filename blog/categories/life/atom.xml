@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[s0ngyee's Blog]]></title>
-  <link href="http://s0ngyee.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Life | s0ngyee's Blog]]></title>
+  <link href="http://s0ngyee.github.com/blog/categories/life/atom.xml" rel="self"/>
   <link href="http://s0ngyee.github.com/"/>
   <updated>2013-01-17T18:04:29+08:00</updated>
   <id>http://s0ngyee.github.com/</id>
@@ -12,28 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Octopress搭建github pages]]></title>
-    <link href="http://s0ngyee.github.com/blog/2013/01/17/octopressda-jian-github-pages/"/>
-    <updated>2013-01-17T17:21:00+08:00</updated>
-    <id>http://s0ngyee.github.com/blog/2013/01/17/octopressda-jian-github-pages</id>
-    <content type="html"><![CDATA[<p>折腾一天终于有所进展了。
-看了N篇blog，相关联的知识也找了不少磕磕绊绊的。</p>
-
-<h3>Ruby</h3>
-
-<h3>github</h3>
-
-<h3>Octopress</h3>
-
-<h3>DNS</h3>
-
-<h3>Other</h3>
-
-<hr />
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[准备挪窝了]]></title>
