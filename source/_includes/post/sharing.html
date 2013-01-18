@@ -1,7 +1,7 @@
 <div class="sharing">
   {% if site.weibo_share %}
   <span>
-    <iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://hits.sinajs.cn/A1/weiboshare.html?url={{ site.url }}{{ page.url }}&amp;type=2&amp;{% if site.weibo_uid %}ralateUid={{ site.weibo_uid }}&amp;{% endif %}language=zh_cn" width="90" height="24"></iframe>
+    <iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://hits.sinajs.cn/A1/weiboshare.html?url={{ site.url }}{{ page.url }}&amp;title={{ page.title }}&amp;type=2&amp;{% if site.weibo_uid %}ralateUid={{ site.weibo_uid }}&amp;{% endif %}language=zh_cn" width="24" height="24"></iframe>
   </span>
   {% endif %}
   {% if site.twitter_tweet_button %}
