@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Life | s0ngyee's Blog]]></title>
+  <title><![CDATA[Category: Life | s0ngyee]]></title>
   <link href="http://s0ngyee.github.com/blog/categories/life/atom.xml" rel="self"/>
   <link href="http://s0ngyee.github.com/"/>
-  <updated>2013-01-18T16:03:56+08:00</updated>
+  <updated>2013-01-20T00:48:31+08:00</updated>
   <id>http://s0ngyee.github.com/</id>
   <author>
     <name><![CDATA[s0ngyee Bian]]></name>
@@ -18,7 +18,7 @@
     <link href="http://s0ngyee.github.com/blog/2013/01/17/zhun-bei-nuo-wo-liao/"/>
     <updated>2013-01-17T07:22:00+08:00</updated>
     <id>http://s0ngyee.github.com/blog/2013/01/17/zhun-bei-nuo-wo-liao</id>
-    <content type="html"><![CDATA[<p>原先的blog用wp架在vps上，上周同学推荐octopress+github pages 托管在github上。折腾了一天弄出来个基本的终于能写blog了，尽快熟悉起来以后东西都记这里了。</p>
+    <content type="html"><![CDATA[<p>上周同学推荐octopress+github pages 托管在github上，减轻服务器负担考虑把blog迁移到这里。折腾了一天弄出来个基本的终于能写blog了，尽快熟悉起来以后东西都记这里了。</p>
 ]]></content>
   </entry>
   

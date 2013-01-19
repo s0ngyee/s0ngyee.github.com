@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[s0ngyee's Blog]]></title>
+  <title><![CDATA[s0ngyee]]></title>
   <link href="http://s0ngyee.github.com/atom.xml" rel="self"/>
   <link href="http://s0ngyee.github.com/"/>
-  <updated>2013-01-18T16:03:56+08:00</updated>
+  <updated>2013-01-20T00:48:31+08:00</updated>
   <id>http://s0ngyee.github.com/</id>
   <author>
     <name><![CDATA[s0ngyee Bian]]></name>
@@ -12,6 +12,43 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Makefile 测试]]></title>
+    <link href="http://s0ngyee.github.com/blog/2013/01/18/makefile-ce-shi/"/>
+    <updated>2013-01-18T16:56:00+08:00</updated>
+    <id>http://s0ngyee.github.com/blog/2013/01/18/makefile-ce-shi</id>
+    <content type="html"><![CDATA[<!--more-->
+
+
+<p>Makefile脚本中应使用tab替代空格，参见<a href="http://blog.songyee.com/blog/2013/01/17/octopressda-jian-github-pages/">上篇</a> Makefile部分</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>blog:
+</span><span class='line'>    git pull <span class="o">&amp;&amp;</span> <span class="se">\</span>
+</span><span class='line'>    rake setup_github_pages<span class="se">\[</span>git@github.com:s0ngyee/s0ngyee.github.git<span class="se">\]</span> <span class="o">&amp;&amp;</span> <span class="se">\</span>
+</span><span class='line'>    bundle install <span class="o">&amp;&amp;</span> <span class="se">\</span>
+</span><span class='line'>    rake integrate <span class="o">&amp;&amp;</span> <span class="se">\</span>
+</span><span class='line'>    rake generate <span class="o">&amp;&amp;</span> <span class="se">\</span>
+</span><span class='line'>    rake deploy <span class="o">&amp;&amp;</span> <span class="se">\</span>
+</span><span class='line'>    git add .; <span class="se">\</span>
+</span><span class='line'>    git commit -am <span class="s2">&quot;${MSG}&quot;</span>; <span class="se">\</span>
+</span><span class='line'>    git push origin master
+</span><span class='line'>.PHONY: blog%
+</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Octopress搭建github pages]]></title>
@@ -269,7 +306,7 @@ Gem介绍中对bundle也有说明</p>
     <link href="http://s0ngyee.github.com/blog/2013/01/17/zhun-bei-nuo-wo-liao/"/>
     <updated>2013-01-17T07:22:00+08:00</updated>
     <id>http://s0ngyee.github.com/blog/2013/01/17/zhun-bei-nuo-wo-liao</id>
-    <content type="html"><![CDATA[<p>原先的blog用wp架在vps上，上周同学推荐octopress+github pages 托管在github上。折腾了一天弄出来个基本的终于能写blog了，尽快熟悉起来以后东西都记这里了。</p>
+    <content type="html"><![CDATA[<p>上周同学推荐octopress+github pages 托管在github上，减轻服务器负担考虑把blog迁移到这里。折腾了一天弄出来个基本的终于能写blog了，尽快熟悉起来以后东西都记这里了。</p>
 ]]></content>
   </entry>
   
