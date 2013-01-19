@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://blog.songyee.com
+url: http://s0ngyee.github.com
 title: s0ngyee
 subtitle: My technology and life notes.
 author: s0ngyee Bian
@@ -106,3 +106,7 @@ google_analytics_tracking_id:
 
 # Facebook Like
 facebook_like: false
+
+# jiathis
+jiathis_user: 1350221344006496
+jiathis_uyan_user: 1735372
