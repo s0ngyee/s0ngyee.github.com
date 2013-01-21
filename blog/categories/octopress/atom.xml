@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Octopress | s0ngyee]]></title>
   <link href="http://s0ngyee.github.com/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://s0ngyee.github.com/"/>
-  <updated>2013-01-21T17:01:31+08:00</updated>
+  <updated>2013-01-21T17:09:03+08:00</updated>
   <id>http://s0ngyee.github.com/</id>
   <author>
     <name><![CDATA[s0ngyee Bian]]></name>
@@ -300,10 +300,10 @@ end</p>
 
 <div id="blog-archives" class="category">
 { % for post in site.tags[page.tag] % }
-{ % capture this_year % }{{ post.date | date: "%Y" }}{ % endcapture % }
+{ % capture this_year % }{ % endcapture % }
 { % unless year == this_year % }
     { % assign year = this_year % }
-    <h2>{{ year }}</h2>
+    <h2></h2>
 { % endunless % }
 <article>
     { % include archive_post.html % }
@@ -331,18 +331,18 @@ _layout/post.html在footer标签中添加如下代码，引用了post/tags.html�
 ``` html tag.html
 { % capture tag % }
 { % if post % }
-{{ post.tags | tag_links | size }}
+{ { post.tags | tag_links | size } }
 { % else % }
-{{ page.tags | tag_links | size }}
+{ { page.tags | tag_links | size } }
 { % endif % }
 { % endcapture % }
 { % unless tag == '0' % }
 <span class="categories"></p>
 
 <pre><code>{ % if post % }
-    {{ post.tags | tag_links }}
+    { { post.tags | tag_links } }
 { % else % }
-    {{ page.tags | tag_links }}
+    { { page.tags | tag_links } }
 { % endif % }
 </code></pre>
 
