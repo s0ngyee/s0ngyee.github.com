@@ -6,9 +6,10 @@ comments: true
 categories: 
 tags: Octopress Plugin Makefile
 ---
-<!--more-->
 
 Makefile脚本中应使用tab替代空格，参见[上篇](http://blog.songyee.com/blog/2013/01/17/octopressda-jian-github-pages/) Makefile部分
+
+<!--more-->
 
 ``` bash
 blog:
