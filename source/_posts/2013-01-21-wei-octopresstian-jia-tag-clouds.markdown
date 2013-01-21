@@ -304,17 +304,17 @@ _includes/post目录下的tags.html代码如下：
 ``` html tag.html
 { % capture tag % }
 { % if post % }
-{{ post.tags | tag_links | size }}
+{ { post.tags | tag_links | size } }
 { % else % }
-{{ page.tags | tag_links | size }}
+{ { page.tags | tag_links | size } }
 { % endif % }
 { % endcapture % }
 { % unless tag == '0' % }
 <span class="categories">
     { % if post % }
-        {{ post.tags | tag_links }}
+        { { post.tags | tag_links } }
     { % else % }
-        {{ page.tags | tag_links }}
+        { { page.tags | tag_links } }
     { % endif % }
 </span>
 { % endunless % }
