@@ -23,6 +23,9 @@ single: true
         <a class="basic-alignment right" href="{{page.next.url}}" title="Next Post: {{page.next.title}}">{{page.next.title}} &raquo;</a>
       {% endif %}
     </p>
+    <p class="meta">
+        Tags: {% include post/tags.html %}
+    </p>
   </footer>
 </article>
 {% if site.jiathis_uyan_user %}

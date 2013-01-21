@@ -4,6 +4,7 @@ title: "Octopress搭建github pages"
 date: 2013-01-17 17:21
 comments: true
 categories: Octopress
+tags: Octopress Ruby Github
 ---
 折腾一天终于有所进展了。<br />
 看了N篇blog，相关联的知识也找了不少磕磕绊绊的。<br />
