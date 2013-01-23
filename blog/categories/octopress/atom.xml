@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Octopress | s0ngyee]]></title>
-  <link href="http://s0ngyee.github.com/blog/categories/octopress/atom.xml" rel="self"/>
-  <link href="http://s0ngyee.github.com/"/>
-  <updated>2013-01-21T17:09:03+08:00</updated>
-  <id>http://s0ngyee.github.com/</id>
+  <link href="http://blog.songyee.com/blog/categories/octopress/atom.xml" rel="self"/>
+  <link href="http://blog.songyee.com/"/>
+  <updated>2013-01-23T10:43:32+08:00</updated>
+  <id>http://blog.songyee.com/</id>
   <author>
     <name><![CDATA[s0ngyee Bian]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[为Octopress添加Tag Clouds]]></title>
-    <link href="http://s0ngyee.github.com/blog/2013/01/21/wei-octopresstian-jia-tag-clouds/"/>
+    <link href="http://blog.songyee.com/blog/2013/01/21/wei-octopresstian-jia-tag-clouds/"/>
     <updated>2013-01-21T12:12:00+08:00</updated>
-    <id>http://s0ngyee.github.com/blog/2013/01/21/wei-octopresstian-jia-tag-clouds</id>
+    <id>http://blog.songyee.com/blog/2013/01/21/wei-octopresstian-jia-tag-clouds</id>
     <content type="html"><![CDATA[<p>给blog添加了标签云的功能，不支持中文。</p>
 
 <p>记录一下折腾流程。</p>
@@ -25,7 +25,7 @@
 <!--more-->
 
 
-<p>主要流程参照<a href="http://agiledon.github.com/blog/2012/12/26/weibo-plugin-for-octopress/">这篇</a></p>
+<p>主要流程参照<a href="http://agiledon.github.com/blog/2013/01/08/create-tag-for-octopress/">这篇</a></p>
 
 <h3>Tag Cloud插件</h3>
 
@@ -166,7 +166,7 @@ end
 def tag_links(tags)
   dir = @context.registers[:site].config['tag_dir']
   tags = tags.sort!.map do |item|
-    "&lt;a class='category' href='http://s0ngyee.github.com/#{dir}/#{item.gsub(/_|\P{Word}/, '-').gsub(/-{2,}/, '-').downcase}/'&gt;#{item}&lt;/a&gt;"
+    "&lt;a class='category' href='http://blog.songyee.com/#{dir}/#{item.gsub(/_|\P{Word}/, '-').gsub(/-{2,}/, '-').downcase}/'&gt;#{item}&lt;/a&gt;"
   end
 
   case tags.length
@@ -250,7 +250,7 @@ def render(context)
   hicolor = @opts['hicolor']
 
   html = ''
-  html &lt;&lt; "&lt;embed type='application/x-shockwave-flash' src='http://s0ngyee.github.com/javascripts/tagcloud.swf'"
+  html &lt;&lt; "&lt;embed type='application/x-shockwave-flash' src='http://blog.songyee.com/javascripts/tagcloud.swf'"
   html &lt;&lt; "width='100%' height='250' bgcolor='#{bgcolor}' id='tagcloudflash' name='tagcloudflash' quality='high' allowscriptaccess='always'"
 
   html &lt;&lt; 'flashvars="'
@@ -382,9 +382,9 @@ tag_dir: blog/tags
   
   <entry>
     <title type="html"><![CDATA[Octopress搭建github pages]]></title>
-    <link href="http://s0ngyee.github.com/blog/2013/01/17/octopressda-jian-github-pages/"/>
+    <link href="http://blog.songyee.com/blog/2013/01/17/octopressda-jian-github-pages/"/>
     <updated>2013-01-17T17:21:00+08:00</updated>
-    <id>http://s0ngyee.github.com/blog/2013/01/17/octopressda-jian-github-pages</id>
+    <id>http://blog.songyee.com/blog/2013/01/17/octopressda-jian-github-pages</id>
     <content type="html"><![CDATA[<p>折腾一天终于有所进展了。<br />
 看了N篇blog，相关联的知识也找了不少磕磕绊绊的。<br />
 写篇日志总结一下，文思如尿路，给自己看，不奢求写的有多流畅有多完美。</p>

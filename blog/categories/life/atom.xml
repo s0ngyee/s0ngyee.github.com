@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Life | s0ngyee]]></title>
-  <link href="http://s0ngyee.github.com/blog/categories/life/atom.xml" rel="self"/>
-  <link href="http://s0ngyee.github.com/"/>
-  <updated>2013-01-21T17:09:03+08:00</updated>
-  <id>http://s0ngyee.github.com/</id>
+  <link href="http://blog.songyee.com/blog/categories/life/atom.xml" rel="self"/>
+  <link href="http://blog.songyee.com/"/>
+  <updated>2013-01-23T10:43:32+08:00</updated>
+  <id>http://blog.songyee.com/</id>
   <author>
     <name><![CDATA[s0ngyee Bian]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[准备挪窝了]]></title>
-    <link href="http://s0ngyee.github.com/blog/2013/01/17/zhun-bei-nuo-wo-liao/"/>
+    <link href="http://blog.songyee.com/blog/2013/01/17/zhun-bei-nuo-wo-liao/"/>
     <updated>2013-01-17T07:22:00+08:00</updated>
-    <id>http://s0ngyee.github.com/blog/2013/01/17/zhun-bei-nuo-wo-liao</id>
+    <id>http://blog.songyee.com/blog/2013/01/17/zhun-bei-nuo-wo-liao</id>
     <content type="html"><![CDATA[<p>上周同学推荐octopress+github pages 托管在github上，减轻服务器负担考虑把blog迁移到这里。折腾了一天弄出来个基本的终于能写blog了，尽快熟悉起来以后东西都记这里了。</p>
 ]]></content>
   </entry>

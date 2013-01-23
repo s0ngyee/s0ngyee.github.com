@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[s0ngyee]]></title>
-  <link href="http://s0ngyee.github.com/atom.xml" rel="self"/>
-  <link href="http://s0ngyee.github.com/"/>
-  <updated>2013-01-21T17:09:03+08:00</updated>
-  <id>http://s0ngyee.github.com/</id>
+  <link href="http://blog.songyee.com/atom.xml" rel="self"/>
+  <link href="http://blog.songyee.com/"/>
+  <updated>2013-01-23T10:43:32+08:00</updated>
+  <id>http://blog.songyee.com/</id>
   <author>
     <name><![CDATA[s0ngyee Bian]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[为Octopress添加Tag Clouds]]></title>
-    <link href="http://s0ngyee.github.com/blog/2013/01/21/wei-octopresstian-jia-tag-clouds/"/>
+    <link href="http://blog.songyee.com/blog/2013/01/21/wei-octopresstian-jia-tag-clouds/"/>
     <updated>2013-01-21T12:12:00+08:00</updated>
-    <id>http://s0ngyee.github.com/blog/2013/01/21/wei-octopresstian-jia-tag-clouds</id>
+    <id>http://blog.songyee.com/blog/2013/01/21/wei-octopresstian-jia-tag-clouds</id>
     <content type="html"><![CDATA[<p>给blog添加了标签云的功能，不支持中文。</p>
 
 <p>记录一下折腾流程。</p>
@@ -25,7 +25,7 @@
 <!--more-->
 
 
-<p>主要流程参照<a href="http://agiledon.github.com/blog/2012/12/26/weibo-plugin-for-octopress/">这篇</a></p>
+<p>主要流程参照<a href="http://agiledon.github.com/blog/2013/01/08/create-tag-for-octopress/">这篇</a></p>
 
 <h3>Tag Cloud插件</h3>
 
@@ -645,9 +645,9 @@ _layout/post.html在footer标签中添加如下代码，引用了post/tags.html�
   
   <entry>
     <title type="html"><![CDATA[Makefile 测试]]></title>
-    <link href="http://s0ngyee.github.com/blog/2013/01/18/makefile-ce-shi/"/>
+    <link href="http://blog.songyee.com/blog/2013/01/18/makefile-ce-shi/"/>
     <updated>2013-01-18T16:56:00+08:00</updated>
-    <id>http://s0ngyee.github.com/blog/2013/01/18/makefile-ce-shi</id>
+    <id>http://blog.songyee.com/blog/2013/01/18/makefile-ce-shi</id>
     <content type="html"><![CDATA[<p>Makefile脚本中应使用tab替代空格，参见<a href="http://blog.songyee.com/blog/2013/01/17/octopressda-jian-github-pages/">上篇</a> Makefile部分</p>
 
 <!--more-->
@@ -684,9 +684,9 @@ _layout/post.html在footer标签中添加如下代码，引用了post/tags.html�
   
   <entry>
     <title type="html"><![CDATA[Octopress搭建github pages]]></title>
-    <link href="http://s0ngyee.github.com/blog/2013/01/17/octopressda-jian-github-pages/"/>
+    <link href="http://blog.songyee.com/blog/2013/01/17/octopressda-jian-github-pages/"/>
     <updated>2013-01-17T17:21:00+08:00</updated>
-    <id>http://s0ngyee.github.com/blog/2013/01/17/octopressda-jian-github-pages</id>
+    <id>http://blog.songyee.com/blog/2013/01/17/octopressda-jian-github-pages</id>
     <content type="html"><![CDATA[<p>折腾一天终于有所进展了。<br />
 看了N篇blog，相关联的知识也找了不少磕磕绊绊的。<br />
 写篇日志总结一下，文思如尿路，给自己看，不奢求写的有多流畅有多完美。</p>
@@ -935,9 +935,9 @@ Gem介绍中对bundle也有说明</p>
   
   <entry>
     <title type="html"><![CDATA[准备挪窝了]]></title>
-    <link href="http://s0ngyee.github.com/blog/2013/01/17/zhun-bei-nuo-wo-liao/"/>
+    <link href="http://blog.songyee.com/blog/2013/01/17/zhun-bei-nuo-wo-liao/"/>
     <updated>2013-01-17T07:22:00+08:00</updated>
-    <id>http://s0ngyee.github.com/blog/2013/01/17/zhun-bei-nuo-wo-liao</id>
+    <id>http://blog.songyee.com/blog/2013/01/17/zhun-bei-nuo-wo-liao</id>
     <content type="html"><![CDATA[<p>上周同学推荐octopress+github pages 托管在github上，减轻服务器负担考虑把blog迁移到这里。折腾了一天弄出来个基本的终于能写blog了，尽快熟悉起来以后东西都记这里了。</p>
 ]]></content>
   </entry>

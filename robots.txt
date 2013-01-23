@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://s0ngyee.github.com/sitemap.xml 
+Sitemap: http://blog.songyee.com/sitemap.xml 
