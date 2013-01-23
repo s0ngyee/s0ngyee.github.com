@@ -13,7 +13,7 @@ tags: Octopress TagCloud
 
 <!--more-->
 
-主要流程参照[这篇](http://agiledon.github.com/blog/2012/12/26/weibo-plugin-for-octopress/)
+主要流程参照[这篇](http://agiledon.github.com/blog/2013/01/08/create-tag-for-octopress/)
 
 ### Tag Cloud插件
 
