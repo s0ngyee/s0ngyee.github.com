@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Octopress | s0ngyee]]></title>
   <link href="http://blog.songyee.com/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://blog.songyee.com/"/>
-  <updated>2013-01-23T11:42:44+08:00</updated>
+  <updated>2013-01-24T20:45:51+08:00</updated>
   <id>http://blog.songyee.com/</id>
   <author>
     <name><![CDATA[s0ngyee Bian]]></name>
@@ -377,6 +377,35 @@ tag_dir: blog/tags
 <li>使用代码高亮时不知为何rb语言标识符无法解析以致于{ 和 %之间多加了个空格，暂时还没有找到原因</li>
 </ul>
 
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Makefile 测试]]></title>
+    <link href="http://blog.songyee.com/blog/2013/01/18/makefile-ce-shi/"/>
+    <updated>2013-01-18T16:56:00+08:00</updated>
+    <id>http://blog.songyee.com/blog/2013/01/18/makefile-ce-shi</id>
+    <content type="html"><![CDATA[<p>Makefile脚本中应使用tab替代空格，参见<a href="http://blog.songyee.com/blog/2013/01/17/octopressda-jian-github-pages/">上篇</a> Makefile部分</p>
+
+<!--more-->
+
+
+<p>``` bash
+blog:</p>
+
+<pre><code>git pull &amp;&amp; \
+rake setup_github_pages\[git@github.com:s0ngyee/s0ngyee.github.git\] &amp;&amp; \
+bundle install &amp;&amp; \
+rake integrate &amp;&amp; \
+rake generate &amp;&amp; \
+rake deploy &amp;&amp; \
+git add .; \
+git commit -am "${MSG}"; \
+git push origin master
+</code></pre>
+
+<p>.PHONY: blog%
+```</p>
 ]]></content>
   </entry>
   
