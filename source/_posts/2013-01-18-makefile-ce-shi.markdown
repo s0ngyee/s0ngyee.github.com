@@ -3,7 +3,7 @@ layout: post
 title: "Makefile 测试"
 date: 2013-01-18 16:56
 comments: true
-categories: 
+categories: Octopress
 tags: Octopress Plugin Makefile
 ---
 
