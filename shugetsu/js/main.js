@@ -1,7 +1,8 @@
 $(function(){
 
     var elCover = $('#cover'),
-        elMail = $('#mail')
+        elContent = $('#content');
+
     //slide cover
     $('.love > div > div > div').each(function(){
         var el = $(this);
@@ -19,12 +20,24 @@ $(function(){
 
     $('#cover').on('tap', function(){
         elCover.fadeOut(1000);
-        elMail.fadeIn(1000);
-    })
+        elContent.fadeIn(1000);
+    });
 
+    var elEnvelope = $('.envelope').eq(0);
+        elPaper = $('.paper').eq(0);
+
+    var elMTitle = $('#m_title'),
+        elMContent = $('#m_content'),
+        elMSig = $('#m_sig');
+
+    elEnvelope.on('tap', function(){
+        elPaper
+    })
+    /*
     $("#demo").typewriter({
         delay: 500,
         random: true,
         randomMax: 200
     });
+    */
 })
