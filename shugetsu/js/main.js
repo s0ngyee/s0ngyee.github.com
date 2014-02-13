@@ -1,5 +1,7 @@
 $(function(){
 
+    var elCover = $('#cover'),
+        elMail = $('#mail')
     //slide cover
     $('.love > div > div > div').each(function(){
         var el = $(this);
@@ -16,9 +18,9 @@ $(function(){
     });
 
     $('#cover').click(function(){
-        console.log('#### change ####');
+        elCover.fadeOut(1000);
+        elMail.fadeIn(1000);
     })
-
 
     $("#demo").typewriter({
         delay: 500,

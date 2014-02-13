@@ -64,13 +64,21 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+    background: #ccc url('../img/envelope/bg_out.png');
+    color: #7c7873;
+}
 
 .wrapper {
     width: 100%;
+    min-width: 320px;
     height: 480px;
+    position: absolute;
 }
 
-
+#mail {
+    display: none;
+}
 
 
 
