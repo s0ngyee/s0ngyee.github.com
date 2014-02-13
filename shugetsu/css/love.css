@@ -1,0 +1,25 @@
+.love { height:600px;position:absolute;}
+.love  .left,.right{
+    display:inline-block
+}
+.love  .left{
+    width:170px;
+    height:239px;
+    margin-right:-4px
+}
+
+.love  div>div{
+    display:block;
+    height:34px;
+}
+.love div>div>div{
+    width:30px;
+    height:30px;
+    background-color:red;
+    display:inline-block;
+    float:right;
+    margin:2px;
+}
+.love div.right>div>div{
+    float:left;
+}
