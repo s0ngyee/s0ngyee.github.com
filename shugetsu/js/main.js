@@ -17,7 +17,7 @@ $(function(){
         },1000);
     });
 
-    $('#cover').click(function(){
+    $('#cover').on('tap', function(){
         elCover.fadeOut(1000);
         elMail.fadeIn(1000);
     })
