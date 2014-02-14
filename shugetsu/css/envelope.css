@@ -3,7 +3,7 @@
 }
 
 .envelope {
-    width: 280px;
+    width: 265px;
     height: 223px;
     position: relative;
     top:150px;
@@ -15,16 +15,16 @@
     position: absolute;
     bottom: 64px;
     background:url('../img/envelope/before.png') no-repeat;
-    background-size: 280px auto;
-    width:280px;
+    background-size: 265px auto;
+    width:265px;
     height: 158px;
 }
 
 .envelope:after {content:"";position:absolute;
     bottom:0px;left:0;
     background:url('../img/envelope/after.png') no-repeat;
-    background-size: 280px auto;
-    width: 280px;
+    background-size: 265px auto;
+    width: 265px;
     height: 130px;
 }
 
@@ -34,7 +34,7 @@
 
 .paper {
     background: #f7f2ec url('../img/envelope/letter_bg.png');
-    background-size: 200px auto;
+    background-size: 265px auto;
     position:relative;
     top: 100px;
     overflow: hidden;
@@ -53,15 +53,7 @@
 
 .paper p {
     text-shadow:0 1px 0 #fff;
-    font-size: 16px;
+    font-size:14px;
     padding: 0;
     margin: 0;
-}
-
-.paper .carrot{
-    width: 44px;
-    height:44px;
-    background:url(../img/carrot.png) no-repeat;
-    background-size:44px auto;
-    margin: 5px auto;
 }
