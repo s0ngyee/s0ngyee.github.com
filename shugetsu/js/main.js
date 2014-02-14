@@ -48,7 +48,7 @@ $(function(){
             pt = elPaper.position().top;
 
         t1 = setTimeout(function(){
-            if(pt > -120) {
+            if(pt > -180) {
                 et += 1;
                 ph += 5;
                 pt -= 5;
