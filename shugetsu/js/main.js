@@ -52,10 +52,10 @@ $(function(){
                 et += 1;
                 ph += 5;
                 pt -= 5;
-                if(ph < 260) {
+                if(ph < 280) {
                     elPaper.css({ height: ph + 'px'});
                 }
-                if(et < 240) {
+                if(et < 250) {
                     elEnvelope.css({top: et + 'px'});
                 }
                 elPaper.css({ top: pt + 'px'});
