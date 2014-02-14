@@ -64,7 +64,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-body {
+.ui-page {
     background: #ccc url('../img/envelope/bg_out.png');
     color: #7c7873;
 }
@@ -77,6 +77,13 @@ body {
 }
 
 #content {
+    display: none;
+}
+
+.lantern {
+    width: 300px;
+    margin:0 auto;
+    margin-top: 100px;
     display: none;
 }
 

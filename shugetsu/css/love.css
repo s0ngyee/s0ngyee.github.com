@@ -14,11 +14,14 @@
 }
 .love  .left, .right{
     display: inline-block;
+    height:84px;
+    float: left;
 }
 .love  .left{
     width:60px;
-    height:84px;
-    margin-right:-4px
+}
+.love  .right{
+    width:50px;
 }
 
 .love  div>div{

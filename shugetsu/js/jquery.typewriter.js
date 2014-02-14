@@ -53,7 +53,7 @@
             setTimeout((function() {
               return typeChar(the_text, n);
             }), speed);
-            return log(speed);
+            //return log(speed);
           }
         };
         return setTimeout((function() {

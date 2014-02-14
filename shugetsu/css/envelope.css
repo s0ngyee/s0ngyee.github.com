@@ -57,3 +57,11 @@
     padding: 0;
     margin: 0;
 }
+
+.paper .carrot{
+    width: 44px;
+    height:44px;
+    background:url(../img/carrot.png) no-repeat;
+    background-size:44px auto;
+    margin: 5px auto;
+}

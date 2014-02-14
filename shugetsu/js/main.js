@@ -1,5 +1,7 @@
 $(function(){
 
+    $.mobile.loadingMessage = false;
+
     var elCover = $('#cover'),
         elContent = $('#content');
 
@@ -73,5 +75,20 @@ $(function(){
         }
     });
 
+    var elCarrot = $('.carrot').eq(0),
+        elLantern = $('.lantern').eq(0),
+        elClouds = $('.clouds').eq(0),
+        elRabbit = $('.rabbit').eq(0);
+    elCarrot.on('tap', function(){
+        elLantern.fadeIn(1000);
+        elClouds.animate({
+            left: '+=250'
+        }, 8000);
+        elRabbit.animate({
+            left: '+=200'
+        }, 10000, function(){
+            elLantern.fadeOut(3000);
+        });
+    })
 
 })
