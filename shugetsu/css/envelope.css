@@ -1,14 +1,12 @@
 .mail {
     width: 100%;
-    height: 100%;
 }
 
 .envelope {
-    overflow: hidden;
     width: 280px;
     height: 223px;
     position: relative;
-    top:200px;
+    top:150px;
     margin: 0 auto;
 }
 
@@ -55,10 +53,7 @@
 
 .paper p {
     text-shadow:0 1px 0 #fff;
-    font-size:16px;
-}
-
-.paper p.sig {
-    font-size: 12px;
-    text-align: right;
+    font-size:14px;
+    padding: 0;
+    margin: 0;
 }
