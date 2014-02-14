@@ -2,6 +2,7 @@
     width: 110px;
     height: 84px;
     margin: 0 auto;
+    display: none;
 }
 .love .lr_f {
     padding-right: 24px;
