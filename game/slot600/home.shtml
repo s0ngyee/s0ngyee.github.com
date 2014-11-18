@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title>拼人品</title>
+        <meta name="description" content="">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+        <meta http-equiv="cleartype" content="on">
+        <meta content="telephone=no" name="format-detection">
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/home.css" />
+    </head>
+    <body>
+        <div class="wrap game">
+            <header>
+                <div class="banner step1"></div>
+            </header>
+            <div class="score-board">
+                <div class="num">
+                    <span class="ico-dig n0"></span>
+                    <span class="ico-dig n0"></span>
+                    <span class="ico-dig n0"></span>
+                    <span class="ico-dig n0"></span>
+                </div>
+            </div>
+            <div class="slot">
+                <div class="slot-main">
+                    <canvas id="reel_main" class="reel-main"></canvas>
+                </div>
+            </div>
+            <div class="game-ctrl">
+                <a href="javascript:;" id="btn_play" class="btn-play"></a>
+            </div>
+        </div>
+    </body>
+    <script>
+        var BASE_URL = '';
+    </script>
+    <script data-main="js/home.js" src="js/vendor/Require/require.min.js"></script>
+</html>
