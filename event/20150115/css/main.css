@@ -140,7 +140,7 @@ a:hover {
 .pages {
     position: relative;
     z-index: 1;
-    /*height: 6.35rem;*/
+    height: 6.35rem;
 }
 
 .page {
