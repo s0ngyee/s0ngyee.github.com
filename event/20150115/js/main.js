@@ -18,7 +18,7 @@ $(function(){
     calculate_size();
 
     var elPages = $('.pages').eq(0)[0],
-        mcPages = ne Hammer(elPages);
+        mcPages = new Hammer(elPages);
     mcPages.on('swipe', function(e) {
         console.log(e.target);
     });
