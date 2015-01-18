@@ -140,13 +140,13 @@ a:hover {
 .pages {
     position: relative;
     z-index: 1;
-    height: 6.35rem;
+    /*height: 6.35rem;*/
 }
 
 .page {
     position: relative;
     width: 100%;
-    /*height: 6.35rem;*/
+    height: 6.35rem;
     z-index: 1;
     background: url(../images/bg.png) no-repeat;
     background-size: 100% auto;
