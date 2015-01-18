@@ -18,10 +18,10 @@ $(function(){
     calculate_size();
 
     //page effect
-//    $('.pages').dragend({
-//        pageClass: 'page',
-//        direction: 'vertical'
-//    });
+    $('.pages').dragend({
+        pageClass: 'page',
+        direction: 'horizontal'
+    });
 
     //rule display
     var elRule = $('.rule').eq(0);
@@ -36,9 +36,9 @@ $(function(){
 
     $('.b-apply').on('click', function(){
         console.log('##### apply #####');
-//        $(".pages").dragend({
-//            scrollToPage: 2
-//        });
+        $(".pages").dragend({
+            scrollToPage: 2
+        });
     });
 
     //main page
