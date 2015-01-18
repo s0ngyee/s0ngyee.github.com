@@ -38,6 +38,7 @@ window.onload = function () {
     })(document);
 //EXAMPLE OF USE
     var h = function (e) {
+        console.log(e.target);
         console.log(e.type, e)
     };
     document.body.addEventListener('swu', h, false);
