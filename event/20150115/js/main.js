@@ -24,15 +24,27 @@ $(function(){
         elRuleInner = $('.rule .content p').eq(0);
 
     mcPages.get('swipe').set({
-        direction: Hammer.DIRECTION_UP||Hammer.DIRECTION_DOWN
+        direction: Hammer.DIRECTION_ALL
     });
 
-    mcPages.on('swipe', function(e) {
+    mcPages.on('swipeup', function(e) {
         var target = e.target;
         if(target != elRuleContent[0] && target != elRuleInner[0]) {
-            console.log('#### swipe ####');
-            elPages.animate({
+            console.log('#### swipe up ####');
+            elPages.css({
+                webkitTransform: 'translate3D(0, -6.35rem, 0)',
+                webkitTransition: 'all 1s ease-in-out'
+            });
+        }
+    });
 
+    mcPages.on('swipedown', function(e) {
+        var target = e.target;
+        if(target != elRuleContent[0] && target != elRuleInner[0]) {
+            console.log('#### swipe down ####');
+            elPages.css({
+                webkitTransform: 'translate3D(0, 0, 0)',
+                webkitTransition: 'all 1s ease-in-out'
             });
         }
     });
