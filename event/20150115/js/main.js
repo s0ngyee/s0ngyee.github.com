@@ -17,10 +17,24 @@ $(function(){
     document.addEventListener('DOMContentLoaded', calculate_size, false);
     calculate_size();
 
-    var elPages = $('.pages').eq(0)[0],
-        mcPages = new Hammer(elPages);
+    var elPages = $('.pages').eq(0),
+        mcPages = new Hammer(elPages[0]);
+
+    var elRuleContent = $('.rule .content').eq(0),
+        elRuleInner = $('.rule .content p').eq(0);
+
+    mcPages.get('swipe').set({
+        direction: Hammer.DIRECTION_UP||Hammer.DIRECTION_DOWN
+    });
+
     mcPages.on('swipe', function(e) {
-        console.log(e.target);
+        var target = e.target;
+        if(target != elRuleContent[0] && target != elRuleInner[0]) {
+            console.log('#### swipe ####');
+            elPages.animate({
+
+            });
+        }
     });
 
     //rule display
